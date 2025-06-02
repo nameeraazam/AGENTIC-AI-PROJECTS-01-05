@@ -4,7 +4,7 @@ from openai import AsyncOpenAI
 # Test script to verify OpenRouter connection
 async def test_openrouter():
     client = AsyncOpenAI(
-        api_key="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",
+        api_key="",
         base_url="https://openrouter.ai/api/v1"
     )
     
